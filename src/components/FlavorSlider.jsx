@@ -22,7 +22,6 @@ const FlavorSlider = () => {
           end: `+=${scrollAmount + 1500}px`,
           scrub: true,
           pin: true,
-          makers: true,
         },
       });
 
