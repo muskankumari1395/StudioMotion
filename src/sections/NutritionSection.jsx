@@ -74,7 +74,7 @@ const NutritionSection = () => {
 
       <img src="/images/big-img.png" alt="" className="big-img" />
 
-      <div className="flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:mt-0">
+      <div className="flex md:flex-row flex-col justify-between md:px-10 sm:px-7 px-5 mt-14 md:mt-0">
         <div className="relative inline-block md:translate-y-20">
           <div className="general-title relative flex flex-col justify-center items-center gap-24">
             <div className="overflow-hidden place-self-start">
@@ -94,8 +94,8 @@ const NutritionSection = () => {
         </div>
 
         <div className="flex md:justify-center items-center translate-y-5">
-          <div className="md:max-w-xs max-w-md">
-            <p className="text-lg md:text-right text-balance font-paragraph">
+          <div className="md:max-w-xs sm:max-w-sm max-w-md">
+            <p className="lg:text-lg md:text-base text-sm md:text-right text-balance font-paragraph">
               Milk contains a wide array of nutrients, including vitamins,
               minerals, and protein, and this is lactose free
             </p>
