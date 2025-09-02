@@ -47,7 +47,7 @@ const FooterSection = () => {
           </div>
         </div>
 
-        <div className="mt-40 md:px-10 px-5 flex gap-10 md:flex-row flex-col justify-between text-milk font-paragraph md:text-lg font-medium">
+        <div className="mt-40 md:px-10 sm:px-7 px-5 flex gap-10 md:flex-row flex-col justify-between text-milk font-paragraph lg:text-lg md:text-base text-sm font-medium">
           <div className="flex items-center md:gap-16 gap-5">
             <div>
               <p>SPYLT Flavors</p>
@@ -69,7 +69,7 @@ const FooterSection = () => {
               Get Exclusive Early Access and Stay Informed About Product
               Updates, Events, and More!
             </p>
-            <div className="flex justify-between items-center border-b border-[#D9D9D9] py-5 md:mt-10">
+            <div className="flex justify-between items-center border-b border-[#D9D9D9] py-5 md:mt-10 sm:mt-7 mt-5">
               {/* The input field and arrow icon for newsletter signup. */}{" "}
               {/* A
           border at the bottom for a clean, modern look. */}
