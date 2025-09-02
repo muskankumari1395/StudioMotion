@@ -15,8 +15,11 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 const App = () => {
   useGSAP(() => {
     ScrollSmoother.create({
-      smooth: 3,
+      smooth: 1.5,
       effects: true,
+      smoothTouch: 0.1,
+      normalizeScroll: true,
+      ignoreMobileResize: true,
     });
   });
 
