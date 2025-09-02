@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
   }
   .general-title {
-    @apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw];
+    @apply 2xl:text-[8.5rem] xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold uppercase leading-[9vw] tracking-[-.35vw];
   }
 }
 
@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
       @apply relative z-10 w-full h-full flex flex-col 2xl:justify-center items-center translate-y-10 2xl:pt-0 md:pt-32 pt-24;
 
       .hero-title {
-        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
+        @apply text-dark-brown 2xl:text-[8.5rem] xl:text-7xl lg:text-6xl md:text-[5rem] sm:text-4xl text-[2.5rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
       }
 
       .hero-text-scroll {
@@ -78,16 +78,16 @@ body::-webkit-scrollbar {
         }
 
         h1 {
-          @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#fce1cd] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
+          @apply uppercase 2xl:text-[8.5rem] xl:text-7xl lg:text-6xl md:text-[5rem] sm:text-4xl text-[2.5rem] font-bold text-[#fce1cd] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
         }
       }
 
       h2 {
-        @apply font-paragraph text-dark-brown text-center md:max-w-lg max-w-sm px-5 md:text-lg leading-[115%] mt-3;
+        @apply font-paragraph text-dark-brown text-center md:max-w-lg sm:max-w-md max-w-sm px-5 md:text-lg sm:text-base leading-[115%] mt-3;
       }
 
       .hero-button {
-        @apply md:mt-16 mt-10 text-dark-brown bg-light-brown uppercase font-bold text-lg rounded-full md:p-5 p-3 md:px-16 px-10;
+        @apply md:mt-16 sm:mt-12 mt-10 text-dark-brown bg-light-brown uppercase font-bold lg:text-lg md:text-base text-sm rounded-full md:p-5 sm:p-4 p-3 md:px-16 sm:px-12 px-10;
       }
     }
   }
@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
     @apply bg-[#7f3b2d] text-milk min-h-dvh overflow-hidden flex justify-center items-center relative z-20;
 
     .msg-wrapper {
-      @apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw] flex flex-col justify-center items-center md:gap-24 gap-14;
+      @apply 2xl:text-[8.5rem] xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold uppercase leading-[9vw] tracking-[-.35vw] flex flex-col justify-center items-center md:gap-24 sm:gap-16 gap-14;
 
       h1:first-of-type {
         @apply 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center  text-[#faeade10];
@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
         }
 
         h1 {
-          @apply absolute md:bottom-10 md:left-10 bottom-5 left-5 text-milk md:text-6xl text-3xl font-semibold uppercase tracking-tighter;
+          @apply absolute md:bottom-10 md:left-10 sm:bottom-7 sm:left-7 bottom-5 left-5 text-milk md:text-6xl sm:text-4xl text-3xl font-semibold uppercase tracking-tighter;
         }
       }
     }
@@ -176,7 +176,7 @@ body::-webkit-scrollbar {
       @apply absolute md:bottom-16 bottom-5 w-full md:px-0 px-5;
 
       .list-wrapper {
-        @apply bg-[#fdebd2] rounded-full border-[.5vw] border-[#e8ddca] mx-auto max-w-7xl md:py-8 py-5 md:px-0 px-5 flex justify-between items-center;
+        @apply bg-[#fdebd2] rounded-full border-[.5vw] border-[#e8ddca] mx-auto max-w-7xl md:py-8 sm:py-6 py-5 md:px-0 sm:px-3 px-5 flex justify-between items-center;
 
         p {
           @apply text-[#865720];
@@ -233,15 +233,15 @@ body::-webkit-scrollbar {
     @apply bg-milk relative w-full h-[120dvh];
 
     .pin-box {
-      @apply flex items-center justify-center w-full ps-52 absolute 2xl:bottom-32 bottom-[50vh];
+      @apply flex items-center justify-center w-full lg:ps-52 md:ps-32 sm:ps-20 ps-16 absolute 2xl:bottom-32 lg:bottom-[45vh] bottom-[40vh];
 
       .vd-card {
-        @apply md:w-96 w-80 flex-none md:rounded-[2vw] rounded-3xl -ms-44 overflow-hidden 2xl:relative absolute border-[.5vw] border-milk;
+        @apply lg:w-96 md:w-80 sm:w-72 w-64 flex-none md:rounded-[2vw] rounded-3xl lg:-ms-44 md:-ms-32 sm:-ms-24 -ms-20 overflow-hidden 2xl:relative absolute border-[.5vw] border-milk;
       }
     }
 
     h1 {
-      @apply uppercase text-[20.5vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold;
+      @apply uppercase xl:text-[20.5vw] lg:text-[18vw] md:text-[16vw] sm:text-[14vw] text-[12vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold;
     }
   }
 
@@ -249,15 +249,15 @@ body::-webkit-scrollbar {
     @apply 2xl:min-h-dvh overflow-hidden relative bg-[#222123];
 
     .social-btn {
-      @apply border border-[#faeade33] md:size-[5vw] size-14 md:p-0 p-3 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
+      @apply border border-[#faeade33] md:size-[5vw] sm:size-16 size-14 md:p-0 sm:p-4 p-3 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
     }
 
     input {
-      @apply 2xl:text-4xl text-3xl placeholder:font-bold placeholder:tracking-tighter;
+      @apply 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base placeholder:font-bold placeholder:tracking-tighter;
     }
 
     .copyright-box {
-      @apply 2xl:absolute w-full md:px-10 px-5 py-7 bottom-0 text-milk opacity-50 md:text-lg font-paragraph flex gap-7 md:flex-row flex-col-reverse md:justify-between justify-center items-center;
+      @apply 2xl:absolute w-full md:px-10 sm:px-7 px-5 py-7 bottom-0 text-milk opacity-50 lg:text-lg md:text-base text-sm font-paragraph flex gap-7 md:flex-row flex-col-reverse md:justify-between justify-center items-center;
 
       p {
         @apply text-center;
