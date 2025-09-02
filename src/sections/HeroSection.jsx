@@ -64,26 +64,17 @@ const HeroSection = () => {
   return (
     <section className="bg-main-bg">
       <div className="hero-container">
-        {isTablet ? (
-          <>
-            {isMobile && (
-              <img
-                src="/images/hero-bg.png"
-                className="absolute bottom-40 size-full object-cover"
-              />
-            )}
-            <img
-              src="/images/hero-img.png"
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
-            />
-          </>
-        ) : (
-          <video
-            src="/videos/hero-bg.mp4"
-            autoPlay
-            muted
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover"
+        <video
+          src="/videos/hero-bg.mp4"
+          autoPlay
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {isTablet && (
+          <img
+            src="/images/hero-img.png"
+            className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto z-10"
           />
         )}
         <div className="hero-content opacity-0">
